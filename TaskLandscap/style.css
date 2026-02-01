@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+.nav-bar{
+
+    background-color:rgb(13, 13, 19);
+    color: white;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.logo{
+    
+   padding-left:  30px;
+
+}
+a {
+    margin : 50px;
+}
+/* ****Hero section**** */
+.hero-sec {
+    height: 500px;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("intro-bg.jpg");
+    
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    background: -o-linear-gradient()
+    
+   
+    
+  
+}
+.hed{
+    padding-left: 400px;
+  padding-top: 100px;
+    font-weight: 900;
+    font-size: 3rem;
+  
+    
+}
+.para {
+    padding-left: 450px;
+    padding-right: 450px;
+   
+    height: 80px;
+}
+
+.hero-but{
+    height: 50px;
+    width: 120px;
+    color: white;
+    background-color: rgb(19, 182, 19);
+   border-color: white;
+   margin-left: 600px;
+   border-radius: 5px;
+   
+
+  
+    
+}
+button:hover{
+    background-color: rebeccapurple;
+}
+.welcome{
+   display: flex;
+    height: 400px;
+    
+    
+    background-color: white
+}
+.page3{
+ width: 700px;
+ 
+
+    
+}
+.text1{
+   margin: 50px;
+    font-size: 3rem;
+   
+}
+.text2  {
+margin-left: 50px;
+}
+.text3 {
+    margin-left: 50px;
+}
+.addim{
+   
+    display: flex;
+    /* justify-content: space-between; */
+    /* padding-left: 400px; */
+    padding-top: 50px;
+    padding-left: 10px;
+    /* height: 230px; */
+    
+   
+
+    
+    
+}
+ .im1 {
+    /* background-image: url("service-2.jpg"); */
+    height: 150px;
+    width: 280px;
+    background-size: cover;
+}
+.im2{
+    /* background-image: url("service-1.jpg"); */
+    height: 150px;
+    width: 280px;
+    background-size: cover;
+   margin-left: 40px;
+} 
+.bwel{
+    background-color: rgb(19, 182, 19);
+    height: 40px;
+    width: 150px;
+    color: white;
+}
+.greenpanel{
+    margin-top: 100px;
+    background-color: rgb(19, 182, 19);
+    height: 700px;
+    width: 100%;
+}
+.Service {
+    
+    padding-top: 50px;
+   
+    display: flex;
+   
+    justify-content: center;
+   
+}
+.item {
+ color: rgb(209, 237, 195);
+ font-size: 1.2rem;
+ 
+ 
+}
+.logo2{
+    padding-left: 200px;
+}
+.rim {
+    display: flex;
+    
+    justify-content:space-between;
+    padding: 50px;
+    background-size: cover;
+ color: white;
+
+    
+}
+.boderim{
+ 
+ 
+    
+}
+
+.log{
+
+    background-image: url("service-1.jpg");
+    background-size: cover;
+}
+
+.project {
+    height: 900px;
+    width: 95%;
+    background-color: white;
+    
+}
+.projectbut {
+
+   margin-left: 50px;
+   margin-right: 50px;
+ display: flex;
+ justify-content: space-between;
+
+ 
+   
+    
+}
+.proim{
+   padding-left: 100px;
+   width: 80%;
+   padding-right: 30px;
+   padding-top: 80px;
+   display: flex;
+   justify-content: space-between;
+}
+
+#img{
+   display: flex;
+   justify-content: center;
+    gap: 10px;
+  
+}
+ #img >div{
+    width: 27%;
+    padding-top: 3rem;
+}
+
+ #img> div > img{
+    height: 200px;
+    width: 350px;
+    margin-bottom: 1.2rem;
+}
+#five {
+    
+    text-align: center;
+    /* background-color: rgb(53, 205, 50); */
+    background-image: url(back.jpg);
+    padding: 5rem 0rem;
+    color: white;
+    margin-top: 50px;
+  
+}
+#five h2{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+#five > p{
+    line-height: 15px;
+}
+/* **footer*********** */
+
+#six{
+    text-align: center;
+    background-color:white;
+  
+    
+}
+#six > article{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   margin-top: 4rem;
+   gap: 5rem;
+   margin-bottom: 5rem;
+}
+#six  p{
+    color: grey;
+}
+
+#six >input{
+    padding: 10px 50px;
+    margin-left: 20px;
+
+}
+#six > #input{
+   margin-top: 10px;
+   padding: 3rem 12.5rem;
+   margin-bottom: 2rem; 
+}
+#six > button{
+    padding: 10px;
+    background-color: rgb(53, 205, 50);
+    border-radius: 5px;
+   
+    color: white;
+    margin-bottom: 4rem;
+}
+#six > h2{
+    margin: 0;
+    padding-top: 4rem;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.last{
+    padding: 20px;
+text-align: center;
+    background-color: black;
+    padding-bottom: 2rem;
+    
+    padding-top: 20px;
+   
+   
+}
+hr{
+    width: 120px;
+    margin-left: 640px;
+    border: 2px solid rgb(53, 205, 50);
+    
+    
+} 
+
